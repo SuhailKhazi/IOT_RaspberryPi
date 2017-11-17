@@ -1,0 +1,20 @@
+* install the libraries (on the terminal in Raspberry PI type the following)
+Enable RPI.Gpio
+- sudo apt-get update
+- sudo apt-get install python-dev
+- sudo apt-get install python-dev
+- sudo apt-get install mercurial
+- sudo apt-get install python-pip 
+- sudo apt-get remove python-rpi.gpio 
+- sudo pip install hg+http://hg.code.sf.net/p/raspberry-gpio-python/code#egg=RPi.GPIO
+
+Install Pubnub
+- pip install 'pubnub>=3,<4'
+- git clone https://github.com/pubnub/python
+
+Install the Adafruit libraries 
+- git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+- cd Adafruit_Python_DHT
+- sudo apt-get install build-essential python-dev python-openssl
+- sudo python setup.py install
+

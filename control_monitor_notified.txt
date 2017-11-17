@@ -1,0 +1,31 @@
+Pubnub: To use Pubnub, follow the instructions below
+- https://www.pubnub.com/?utm_source=PayPerClick&utm_medium=Google- Adwords&utm_campaign=PPC-CY16-Q4-Brand-Google-Adwords-Dec-19&gclid=CjwKCAiArrrQBRBbEiwAH_6sNMqzIj4DZFV4FVu32qaJ5iZN2SSZqmfyogm9_L4UCV5tU4ecYeTKWBoCv7UQAvD_BwE 
+- Create new app
+- Call it Led control
+- Press on the app
+- You will get a demo publish key and subscribe key
+- On the main code change the publish key and subscribe key to the ones you just generate
+- Similarly on the html file do the same
+
+=======================================================================================
+
+Thinkspeak: To use thinkspeak, follow the instruction mentioned below
+- https://thingspeak.com/
+- Sign up and make an account on Thinkspeak 
+- Navigate to channels -> New Channel
+- Name the channel and fill in all the measurement we will be viewing today (Temp_Deg C for channel 1 etc.)
+- Save the channel
+- In the private view, now to can see your fields and monitor them
+
+=======================================================================================
+
+IFTTT - To use thinkspeak, follow the instruction mentioned below
+- https://ifttt.com/discover ; Download the app on your phone too 
+- Navigate to my applets -> New applets
+- Press this and search for Webhooks, give a name for the event
+- Next press then and search for notification, write a message or leave it as is, Save it.
+- My Applets -> Services -> webhooks -> settings 
+- Now copy the URL and paste it on your search bar
+- In the Make a POST or GET web request to write the name of your event
+- Now copy the link that you generate and put it on the code, now you will receive notification whenever an event is triggered 
+
